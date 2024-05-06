@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object "<u>testDocument:Document</u>" as testDocument{
+characters
+propertiesFactory
+}
+
+object "<u>propertiesFactory:CharacterProperties</u>" as propertiesFactory{
+flyweights<String, CharacterProperties> = { ("ArialBlack16", fw1), ("ArialBlack14", fw2), ("VerdanaBLue18", fw3), ("VerdanaRed12", fw4), ("CalibriBlue99", fw5) }
+}
+
+object "<u>characters:Character</u>" as characters{
+List<Character> = { ("H", fw5), ("e", fw2), ("l", fw2), ("l", fw2), ("o", fw2), ("W", fw5), ("o", fw2), ("r", fw2), ("l", fw2), ("d", fw2)}
+("C", fw3), ("S", fw3), ("5", fw4), ("8", fw4), ("0", fw4), ("0", fw4)
+}
+
+object "<u>fw1:CharacterProperties</u>" as fw1{
+font = "Arial"
+color = "Black"
+size = 16
+}
+
+object "<u>fw2:CharacterProperties</u>" as fw2{
+font = "Arial"
+color = "Black"
+size = 14
+}
+object "<u>fw3:CharacterProperties</u>" as fw3{
+font = "Verdana"
+color = "Blue"
+size = 18
+}
+object "<u>fw4:CharacterProperties</u>" as fw4{
+font = "Verdana"
+color = "Red"
+size = 12
+}
+
+object "<u>fw5:CharacterProperties</u>" as fw5{
+font = "Calibri"
+color = "Blue"
+size = 99
+}
+
+
+testDocument *-- characters
+testDocument *-- propertiesFactory
+characters *-- fw1
+characters *-- fw2
+characters *-- fw3
+characters *-- fw4
+characters *-- fw5
+propertiesFactory *-- fw1
+propertiesFactory *-- fw2
+propertiesFactory *-- fw3
+propertiesFactory *-- fw4
+propertiesFactory *-- fw5
+
+@enduml
