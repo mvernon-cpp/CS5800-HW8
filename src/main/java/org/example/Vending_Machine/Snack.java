@@ -39,4 +39,14 @@ public class Snack {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    public void deductQuantity(int quantity)
+    {
+        this.quantity = this.quantity - quantity;
+    }
+    @Override
+    public String toString()
+    {
+        return "[" + this.name + "\t$" + this.price + "\tRemaining: " + this.quantity + "]";
+    }
 }

@@ -4,13 +4,13 @@ public class IdleState implements StateOfVendingMachine{
 
     @Override
     public void idle(VendingMachine vendingMachine) {
-
+        System.out.println("Vending Machine already in Idle State");
     }
 
     @Override
     public void itemSelection(VendingMachine vendingMachine) {
         vendingMachine.setState( new ItemSelectionState() );
-        System.out.println("Changing state to Item Selection");
+        System.out.println("Changing state to Item Selection. User can now select snacks.");
     }
 
     @Override

@@ -1,31 +1,31 @@
 package org.example.Vending_Machine;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args)
     {
-        Snack coke = new Snack("Coke", 2.99, 1);
-        Snack pepsi = new Snack("Pepsi", 2.99, 1);
-        Snack cheetos = new Snack("Cheetos", 2.99, 1);
-        Snack doritos = new Snack("Doritos", 2.99, 1);
-        Snack kitKat = new Snack("KitKat", 2.99, 1);
-        Snack snickers = new Snack("Snickers", 2.99, 1);
+        System.out.println("Creating Vending Machine");
 
         VendingMachine vm = new VendingMachine();
-        System.out.println("Testing Vending Machine States");
-//        vm.idle();  //vm starts in idle state
-        vm.itemSelection();
-        vm.acceptMoney();
-        vm.dispenseChange();
-        vm.dispenseItem();
         vm.idle();
 
-        System.out.println();
-        vm.itemSelection();
-        vm.cancel();
+        System.out.println("Filling Vending Machine");
 
-        System.out.println("===============\nTesting Vending Machine Chain of Responsibility");
-        vm.handleSnack("Snickers");
+        vm.addSnack( new Snack("Coke", 2.99, 10) );
+        vm.addSnack( new Snack("Pepsi", 2.99, 10) );
+        vm.addSnack( new Snack("Cheetos", 4.48, 8) );
+        vm.addSnack( new Snack("Doritos", 3.98, 12) );
+        vm.addSnack( new Snack("KitKat", 1.99, 20) );
+        vm.addSnack( new Snack("Snickers", 2.29, 10) );
 
+        vm.printVendingMachine();
+
+        vm.startVendingMachine();
+
+        System.out.println("\nVending Machine - Remaining snacks");
+
+        vm.printVendingMachine();
 
     }
 }

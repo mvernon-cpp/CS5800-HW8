@@ -10,13 +10,13 @@ public class ItemSelectionState implements StateOfVendingMachine {
 
     @Override
     public void itemSelection(VendingMachine vendingMachine) {
-
+        System.out.println("Vending Machine already in Item Selection State");
     }
 
     @Override
     public void acceptMoney(VendingMachine vendingMachine) {
         vendingMachine.setState( new AcceptMoneyState() );
-        System.out.println("Changing state to Accept Money");
+        System.out.println("Changing state to Accept Money. User can now insert money.");
     }
 
     @Override

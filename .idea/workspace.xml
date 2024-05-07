@@ -4,35 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2b37444-1c3f-4d0e-a5ca-8a73cc5cf305" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/printouts/HW8_BehavioralPatterns_UML.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UML/Flyweight-Class.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UML/Flyweight-Object_part1.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UML/Flyweight-Object_part2.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/AcceptMoneyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/CheetosDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/CokeDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/DispenseChangeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/DispenseItemState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/DoritosDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/ItemSelectionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/KitKatDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/PepsiDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Snack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/SnackDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/SnickersDispenseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/StateOfVendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SnackTest.java" afterDir="false" />
+    <list default="true" id="b2b37444-1c3f-4d0e-a5ca-8a73cc5cf305" name="Changes" comment="Complete basics of States and Chain of Responsibility">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/IdleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/IdleState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/ItemSelectionState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/ItemSelectionState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Snack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/Snack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vending_Machine/VendingMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "JUnit.SnackTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/moina/Documents/..CPP/..S24/CS5800 - Adv Software Engineering/HW-Eight/src/main/java/org/example/UML",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SnackTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/moina/Documents/..CPP/..S24/CS5800 - Adv Software Engineering/HW-Eight/src/main/java/org/example/UML&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.Vending_Machine" />
@@ -122,8 +100,19 @@
       <option name="presentableId" value="Default" />
       <updated>1714978892298</updated>
       <workItem from="1714978893400" duration="1797000" />
-      <workItem from="1715027499326" duration="4336000" />
+      <workItem from="1715027499326" duration="10699000" />
+      <workItem from="1715039789357" duration="28000" />
+      <workItem from="1715039863715" duration="6298000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete basics of States and Chain of Responsibility">
+      <option name="closed" value="true" />
+      <created>1715033230407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715033230407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Complete basics of States and Chain of Responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete basics of States and Chain of Responsibility" />
   </component>
 </project>
